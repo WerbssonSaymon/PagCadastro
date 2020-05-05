@@ -1,0 +1,76 @@
+@charset "UTF-8";
+* {
+	margin: 0;
+}	
+/*menu*/
+#menu {
+	background-color: orange; 
+}
+.line-one {
+	color: white;
+	text-align: center;
+	padding: 2%;
+}
+span {
+	color: blue;
+	background-color: white;
+	padding: 0.3%;
+}
+/*corpo*/
+body {
+	font-family: Arial, sans-serif;
+}
+#corpo {
+	padding: 3%;
+	background-color: #0040FF;
+}
+h2 {
+	color: #fff;
+	text-align: center;
+	padding: 3%;
+}
+#div-form {
+	background-color; Gainsboro;
+}
+form {
+	padding: 4% 27%;
+	background-color: #E6E6E6;
+}
+.nome-form {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	color: black;
+	font-size: 25px;
+}
+input {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 1%;
+	width: 45%;
+	background-color: orange;
+}
+button {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: LightGrey;
+	padding-bottom: 2%;
+}
+h4 {
+	color: #0B610B;
+	text-align: center;
+	padding: 2.5% 1.5% 1.5% 2.5%;
+	font-size: 19px;
+}
+footer {
+	background-color: orange; 
+	padding: 1.2%;
+}
+h3 {
+	text-align: center;
+	color: white;
+	padding: 3%;
+	font-size: 17px;
+}
