@@ -10,23 +10,23 @@
 		<link rel="stylesheet" type="text/css" href="estiloform.css">
 	</head>
 	<body>
-		<div id="menu">
+		<header id="titulo">
 			<h1 class="line-one">NÃO FIQUE PARADO NESSA QUARENTENA <br> TENHA ACESSO A CURSOS <span> 100% GRATUITOS</span></h1>
-		</div>
+		</header>
 		<div id="corpo">
 			<h2> Preencha o formulario abaixo e receba acesso aos nossos cursos gratuitos na área de Desenvolvimento Back-end e Front-end </h2>
 			<h2> Angular, NodeJS, ReactJS, HTML5, CSS3, JavaScript, PHP e muito mais </h2>
 		</div>	
 		<div id="div-form">
-			<form>
+			<form id="meu-form">
 			<fieldset>
-				<h3 class="nome-form">Nome completo:</h3><br>
+				<label class="nome-form">Nome completo:</label><br>
 				<input type="text" name="nome"><br>
-				<h3 class="nome-form">E-mail:</h3><br>
+				<label class="nome-form">E-mail:</label><br>
 				<input type="email" name="email"><br>
-				<h3 class="nome-form">Senha:</h3><br>
+				<label class="nome-form">Senha:</label><br>
 				<input type="password" name="senha"><br><br>
-				<button> ENVIAR </button>
+				<button onclick="clicar()"> ENVIAR </button>
 			</fieldset>	
 			</form>
 				<h4> Enviaremos os cursos para seu e-mail junto com seus dados cadastrais<br> Bons estudos! </h4>	
@@ -35,7 +35,10 @@
 			<h3>Direitos resarvados | CNPJ 2417 2837 12 -34</h3>
 		</footer>
 		<script>
-			var inp = 
+			function clicar() {
+			var inp = window.document.querySelector('button')
+				inp.style.background = 'orange'
+			}
 		</script>
 	</body>
 </html>	

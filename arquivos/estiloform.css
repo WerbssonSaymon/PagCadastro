@@ -2,8 +2,8 @@
 * {
 	margin: 0;
 }	
-/*menu*/
-#menu {
+/*titulo*/
+#titulo {
 	background-color: orange; 
 }
 .line-one {
@@ -29,17 +29,13 @@ h2 {
 	text-align: center;
 	padding: 3%;
 }
-#div-form {
-	background-color; Gainsboro;
-}
-form {
-	padding: 4% 27%;
+/*área do formulario*/ 
+#meu-form {
+	padding: 6% 35%;
 	background-color: #E6E6E6;
 }
 .nome-form {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
 	color: black;
 	font-size: 25px;
 }
@@ -48,8 +44,7 @@ input {
     margin-left: auto;
     margin-right: auto;
 	padding: 1%;
-	width: 45%;
-	background-color: orange;
+	width: 96%;
 }
 button {
 	display: block;
@@ -64,13 +59,14 @@ h4 {
 	padding: 2.5% 1.5% 1.5% 2.5%;
 	font-size: 19px;
 }
+/*rodapé*/
 footer {
 	background-color: orange; 
-	padding: 1.2%;
+	padding: 1.1%;
 }
 h3 {
 	text-align: center;
 	color: white;
-	padding: 3%;
+	padding: 2%;
 	font-size: 17px;
 }
